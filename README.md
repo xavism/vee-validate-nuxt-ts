@@ -1,8 +1,10 @@
 # vee-validate-nuxt-ts
 
-> My neat Nuxt.js project
+> Project to reproduce an error with nuxt typescript and vee validate
 
-## Build Setup
+Error occurs when executing the extend() method in @/plugins/vee-validate.plugin.ts
+
+## Repro steps
 
 ```bash
 # install dependencies
@@ -11,12 +13,6 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
